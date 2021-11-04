@@ -1,0 +1,32 @@
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\bin\Debug\net5.0\PA_lab1.exe
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\bin\Debug\net5.0\PA_lab1.deps.json
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\bin\Debug\net5.0\PA_lab1.runtimeconfig.json
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\bin\Debug\net5.0\PA_lab1.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\bin\Debug\net5.0\PA_lab1.dll
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\bin\Debug\net5.0\ref\PA_lab1.dll
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\bin\Debug\net5.0\PA_lab1.pdb
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\obj\Debug\net5.0\PA_lab1.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\obj\Debug\net5.0\PA_lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\obj\Debug\net5.0\PA_lab1.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\obj\Debug\net5.0\PA_lab1.AssemblyInfo.cs
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\obj\Debug\net5.0\PA_lab1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\obj\Debug\net5.0\PA_lab1.dll
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\obj\Debug\net5.0\ref\PA_lab1.dll
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\obj\Debug\net5.0\PA_lab1.pdb
+C:\Users\Admin\Desktop\KPI\ПА лабы\PA_lab1\obj\Debug\net5.0\PA_lab1.genruntimeconfig.cache
+E:\КПІ\ПА\PA_lab1\bin\Debug\net5.0\PA_lab1.exe
+E:\КПІ\ПА\PA_lab1\bin\Debug\net5.0\PA_lab1.deps.json
+E:\КПІ\ПА\PA_lab1\bin\Debug\net5.0\PA_lab1.runtimeconfig.json
+E:\КПІ\ПА\PA_lab1\bin\Debug\net5.0\PA_lab1.runtimeconfig.dev.json
+E:\КПІ\ПА\PA_lab1\bin\Debug\net5.0\PA_lab1.dll
+E:\КПІ\ПА\PA_lab1\bin\Debug\net5.0\ref\PA_lab1.dll
+E:\КПІ\ПА\PA_lab1\bin\Debug\net5.0\PA_lab1.pdb
+E:\КПІ\ПА\PA_lab1\obj\Debug\net5.0\PA_lab1.csproj.AssemblyReference.cache
+E:\КПІ\ПА\PA_lab1\obj\Debug\net5.0\PA_lab1.GeneratedMSBuildEditorConfig.editorconfig
+E:\КПІ\ПА\PA_lab1\obj\Debug\net5.0\PA_lab1.AssemblyInfoInputs.cache
+E:\КПІ\ПА\PA_lab1\obj\Debug\net5.0\PA_lab1.AssemblyInfo.cs
+E:\КПІ\ПА\PA_lab1\obj\Debug\net5.0\PA_lab1.csproj.CoreCompileInputs.cache
+E:\КПІ\ПА\PA_lab1\obj\Debug\net5.0\PA_lab1.dll
+E:\КПІ\ПА\PA_lab1\obj\Debug\net5.0\ref\PA_lab1.dll
+E:\КПІ\ПА\PA_lab1\obj\Debug\net5.0\PA_lab1.pdb
+E:\КПІ\ПА\PA_lab1\obj\Debug\net5.0\PA_lab1.genruntimeconfig.cache
