@@ -36,7 +36,7 @@ namespace Lab3
                 bool flag = true;
                 while (flag)
                 {
-                    var city = rand.Next(BottomBound, UpperBound + 1);
+                    var city = rand.Next(0, N);
                     if (!AntsInCities[city])
                     {
                         AntsInCities[city] = true;
@@ -45,7 +45,6 @@ namespace Lab3
                 }
                
             }
-            Lcurrent = Int32.MaxValue;
             FindMinPath();
         }
 
@@ -54,7 +53,6 @@ namespace Lab3
         {
 
             VisitedCities[index] = true;
-            //Console.Write($"{index} --> ");
             var city = Roads[index]; // row
 
             var sortedRoads = city.OrderBy(s => s.Length);
@@ -63,7 +61,6 @@ namespace Lab3
                 if (VisitedCities[city.IndexOf(item)]) continue;
 
                 Lmin += item.Length;
-                //Console.WriteLine($"{item.Length}\n");
                 
                 FindMinPath( city.IndexOf(item) ); 
             }
@@ -75,10 +72,36 @@ namespace Lab3
             }
 
         }
+        private void FindMinPathByPheromones(int index = 0)
+        {
+            //Console.Write($"{index} ");
+            VisitedCities[index] = true;
+            
+            var sortedRoads = Roads[index].OrderByDescending(s => s.Pheromone);
+            foreach (var item in sortedRoads)
+            {
+                if (VisitedCities[Roads[index].IndexOf(item)]) continue;
 
+                Lcurrent += item.Length;
+
+                FindMinPathByPheromones(Roads[index].IndexOf(item));
+            }
+            if (VisitedCities.All(a => true) && !IsFinished)
+            {
+                IsFinished = true;
+                Lcurrent += Roads[index][0].Length;
+            }
+            
+
+        }
+    
         private void FindPath(int index, Ant ant)
         {
+            if (!VisitedCities[index]) Console.Write($"{index} ");
+
+            VisitedCities[index] = true;
             ant.VisitedCities[index] = true;
+
             var city = Roads[index]; // row
             var sum = ProbabilitiesSum(ant, city);
             ant.TransitionProbabilities = Enumerable.Repeat(0.0, N).ToList();
@@ -86,7 +109,9 @@ namespace Lab3
             double totalSum = 0;
             foreach (var road in city) // calculate probabilities
             {
-                if (ant.VisitedCities[road.FromTo.Y]) continue;                
+                if (ant.VisitedCities[road.FromTo.Y]) continue;      
+                
+                
 
                 var probability = Math.Pow(road.Pheromone, Alpha) * Math.Pow(road.Visibility, Beta) / sum;
                 totalSum += probability;
@@ -140,7 +165,7 @@ namespace Lab3
         }
 
         public void FindSolution(int iteration)
-        {
+        {          
             var ants = new List<Ant>();
             foreach (var individ in AntsInCities) // START loop by ants
             {
@@ -154,9 +179,16 @@ namespace Lab3
                 }
             }// END loop by ants
 
-            Lcurrent = ants.Min(a => a.PathLength);
+            //looking for Lcurrent
+            for (int i = 0; i < VisitedCities.Length; i++)   
 
-            foreach (var city in Roads) //START loop by pheromone
+            {
+                VisitedCities[i] = false;
+            }
+            Lcurrent = 0;
+            FindMinPathByPheromones();
+
+            foreach (var city in Roads)   //START loop by pheromone
             {
                 foreach (var road in city)
                 {
@@ -168,16 +200,26 @@ namespace Lab3
             {
                 foreach (var road in ant.VisitedRoads)
                 {
-                    road.Pheromone += Lmin / ant.PathLength / 1.0;
+                    road.Pheromone = road.Pheromone + 1.0 * Lmin / ant.PathLength;
 
                 }
             }            //END loop by pheromone
                        
 
-            if (iteration % 20 == 0)
+            if (iteration % 20 == 0 || iteration <=20 )
             {
-                Console.WriteLine($"{iteration}:\tL = {Lcurrent}");
+                //Console.WriteLine($"{iteration}:\tL = {Lcurrent}");
+                Console.WriteLine($"{iteration} {Lcurrent}");
 
+                //foreach (var city in Roads)      //printing pheromone map
+                //{
+                //    foreach (var road in city)
+                //    {
+                //        Console.Write(Math.Round(road.Pheromone, 4) + " ");
+                //    }
+                //    Console.WriteLine();
+                //}
+                //Console.WriteLine();
             }
 
         }

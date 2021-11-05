@@ -14,3 +14,19 @@ E:\КПІ\ПА\3\Lab3\Lab3\obj\Debug\net5.0\Lab3.dll
 E:\КПІ\ПА\3\Lab3\Lab3\obj\Debug\net5.0\ref\Lab3.dll
 E:\КПІ\ПА\3\Lab3\Lab3\obj\Debug\net5.0\Lab3.pdb
 E:\КПІ\ПА\3\Lab3\Lab3\obj\Debug\net5.0\Lab3.genruntimeconfig.cache
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\bin\Debug\net5.0\Lab3.exe
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\bin\Debug\net5.0\Lab3.deps.json
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\bin\Debug\net5.0\Lab3.runtimeconfig.json
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\bin\Debug\net5.0\Lab3.runtimeconfig.dev.json
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\bin\Debug\net5.0\Lab3.dll
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\bin\Debug\net5.0\ref\Lab3.dll
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\bin\Debug\net5.0\Lab3.pdb
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\obj\Debug\net5.0\Lab3.csproj.AssemblyReference.cache
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\obj\Debug\net5.0\Lab3.GeneratedMSBuildEditorConfig.editorconfig
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\obj\Debug\net5.0\Lab3.AssemblyInfoInputs.cache
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\obj\Debug\net5.0\Lab3.AssemblyInfo.cs
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\obj\Debug\net5.0\Lab3.csproj.CoreCompileInputs.cache
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\obj\Debug\net5.0\Lab3.dll
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\obj\Debug\net5.0\ref\Lab3.dll
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\obj\Debug\net5.0\Lab3.pdb
+E:\КПІ\ПА\3\Travelling salesman problem\Lab3\obj\Debug\net5.0\Lab3.genruntimeconfig.cache
